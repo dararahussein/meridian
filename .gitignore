@@ -1,0 +1,34 @@
+# Python byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Frontend dependencies & build outputs
+web/node_modules/
+web/dist/
+web/.vite/
+
+# Local databases, indices & traces
+*.db
+*.sqlite3
+.meridian/
+data/
+
+# Secrets & environment files
+.env
+*.local
+
+# Local development notes
+TASKS.md
+notes/
+scratch/
+*.local.md
